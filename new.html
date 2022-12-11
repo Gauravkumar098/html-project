@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button onclick="window.print()">Print this
+        page</button>
+        <br>
+        <br>
+        <br>
+    <script>
+        var i = 5;
+        for (var i = 0; i < 10; i++)
+        {
+            document.write(i)
+        }
+        document.write(i)
+    </script>
+    <br>
+    <br>
+    <script>
+        let language = 'java';
+        let text = '';
+        for (let x of language)
+        {
+            text += x;
+        }
+        document.write(text)
+
+    </script>
+    <br>
+    <br>
+    <script>
+    window.prompt("Enter your name","name")
+    </script>
+    <p id="demo"></p>
+    <script>
+        const person = {
+            firstname:"john",
+            lastname:"doe",
+            age:35,
+            eyecolor:"light green"
+        };
+       
+        document.getElementById("demo").innerHTML=person["firstname"]+" is "+person["age"]+" years old.";
+    </script>
+    
+</body>
+</html>

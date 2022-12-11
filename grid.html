@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        .grid-container{
+            display:grid;
+            color: cadetblue;
+            height: 400px;
+            column-gap:50px;
+            row-gap:50px;
+            }
+            .item1{grid-row-start:1;
+                grid-row-end:5;
+            }
+            .item2{
+                grid-column-start:1;
+                grid-column-end:5;
+            }
+            .item3{
+                grid-area:1/2/5/6;
+            }
+    </style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="grid-container">
+        <div class="grid-items">621</div>
+        <div class="grid-items">322</div>
+        <div class="grid-items">323</div>
+        <div class="grid-items">334</div>
+        <div class="grid-items">325</div>
+        <div class="grid-items">654</div>      
+</body>
+</html>
